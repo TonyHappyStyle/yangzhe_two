@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Recent Articles</h1>
+    {% for article in articles %}
+        {{ include('article/article_details.html.twig',{ 'article': article}) }}
+        <a href="{{ url('blog_show',{ 'year':1992,'slug':'fuck','page':8 }) }}">{{ article.title }}</a>
+    {% endfor %}
+    <img src="{{ asset('bundles/framework/images/logo.png') }}" alt="Symfony!"/>
+{% endblock %}

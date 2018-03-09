@@ -1,0 +1,162 @@
+{% extends 'gp/layout.html.twig' %}
+
+{% block javascripts_special %}
+    {{ parent() }}
+    <script src="{{ asset('gp/js/all_data.js')  }}"></script>
+{% endblock %}
+{% block title %}
+    {{ parent() }} - {{ name }}
+{% endblock %}
+
+    {% block ban %}
+        <!-- Inner Container Start -->
+        <div class="container">
+            <div class="mws-panel grid_8" style="width:18%;">
+                <div class="mws-panel-header">
+                    <span><i class="icon-table"></i>均值数据表</span>
+                </div>
+                <div class="mws-panel-body no-padding">
+                    <table class="mws-table">
+                        <thead>
+                        <tr>
+                            <th>项目</th>
+                            <th>数值</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>开盘下跌均值</td>
+                            <td>{{ data0.average}}%</td>
+                        </tr>
+                        <tr>
+                            <td>开盘下跌最大值</td>
+                            <td>{{ data0.acme }}%</td>
+                        <tr>
+                            <td>开盘上涨均值</td>
+                            <td>{{ data1.average }}%</td>
+                        </tr>
+                        <td>开盘上涨最大值</td>
+                        <td>{{ data1.acme }}%</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Panels End -->
+        </div>
+        <!-- Inner Container End -->
+        <div class="mws-panel grid_4">
+            <div class="mws-panel-header">
+                <span>调整缩减范围</span>
+            </div>
+            <div class="mws-panel-body no-padding">
+                <form name="frm1" class="mws-form" action="{{ url('gp_data',{'name':'zhibanggufen'}) }}" method="post" target="_blank">
+                    <div class="mws-form-inline">
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">缩减范围</label>
+                            <div class="mws-form-item">
+                                <select class="large" name="range">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mws-button-row">
+                        <a onclick="submit1(document.frm1)" href="javascript:void(0);" class="btn btn-danger" type="submit">提交</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="mws-panel grid_4">
+            <div class="mws-panel-header">
+                <span>筛选表单</span>
+            </div>
+            <div class="mws-panel-body no-padding">
+                <form name="frm2" class="mws-form" action="{{ url('get_ratio',{'name':name}) }}" method="post" target="_blank">
+                    <div class="mws-form-inline">
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">开盘价格</label>
+                            <div class="mws-form-item">
+                                <input name="opening_price" class="small" type="text" value="">%
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">开盘涨幅</label>
+                            <div class="mws-form-item">
+                                <input name="opening_ratio" class="small" type="text" value="">%
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">昨日走势</label>
+                            <div class="mws-form-item">
+                                <input name="pre_count" class="small" type="text" value="">%
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">两天前走势</label>
+                            <div class="mws-form-item">
+                                <input name="pre_two_count" class="small" type="text" value="">%
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">三天前走势</label>
+                            <div class="mws-form-item">
+                                <input name="pre_three_count" class="small" type="text" value="none">%
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">股票名称</label>
+                            <div class="mws-form-item">
+                                <select name="gp_name" class="large">
+                                    <option selected value="zbgf">志邦股份</option>
+                                    <option selected value="hxxf">华夏幸福</option>
+                                    <option selected value="gldq">格力电器</option>
+                                    <option selected value="mdjt">美的集团</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">开盘涨幅缩减范围</label>
+                            <div class="mws-form-item clearfix">
+                                <ul class="mws-form-list inline">
+                                    <li><input type="radio" name="range" value="0" {% if openingRatio_range==0 %}checked{% endif %}> <label>0</label></li>
+                                    <li><input type="radio" name="range" value="1" {% if openingRatio_range==1 %}checked{% endif %}> <label>1</label></li>
+                                    <li><input type="radio" name="range" value="2" {% if openingRatio_range==2 %}checked{% endif %}> <label>2</label></li>
+                                    <li><input type="radio" name="range" value="3" {% if openingRatio_range==3 %}checked{% endif %}> <label>3</label></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">年份缩减范围</label>
+                            <div class="mws-form-item clearfix">
+                                <ul class="mws-form-list inline">
+                                    <li><input type="radio" name="year_range" value="0" {% if year_range==0 %}checked{% endif %}> <label>0</label></li>
+                                    <li><input type="radio" name="year_range" value="1" {% if year_range==1 %}checked{% endif %}> <label>1</label></li>
+                                    <li><input type="radio" name="year_range" value="2" {% if year_range==2 %}checked{% endif %}> <label>2</label></li>
+                                    <li><input type="radio" name="year_range" value="3" {% if year_range==3 %}checked{% endif %}> <label>3</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label">低买还是高卖</label>
+                            <div class="mws-form-item clearfix">
+                                <ul class="mws-form-list inline">
+                                    <li><input type="radio" name="field" value="lower_ratio"> <label>低买</label></li>
+                                    <li><input type="radio" name="field" value="ceiling_ratio"> <label>高卖</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mws-button-row">
+                        <a href="javascript:void(0);" onclick="submit1(document.frm2)" class="btn btn-danger">提交</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    {% endblock %}
