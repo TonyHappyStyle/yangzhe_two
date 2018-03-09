@@ -502,7 +502,7 @@ class GpImplement extends EntityRepository{
         
         $conn = $this->_em->getConnection();
         if ($f) {
-            $sql = "select opening_ratio from $name p where p.opening_ratio >0";
+            $sql = "select opening_ratio from $name p where p.opening_ratio >=0";
         } else {
             $sql = "select opening_ratio from $name p where p.opening_ratio <0";
         }

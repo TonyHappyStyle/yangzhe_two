@@ -25,25 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GpImplement.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GpImplement.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Implement/GpImplement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="545" column="23" selection-start-line="545" selection-start-column="23" selection-end-line="545" selection-end-column="23" />
+            <state vertical-scroll-proportion="1.0">
+              <caret line="642" column="50" selection-start-line="642" selection-start-column="50" selection-end-line="642" selection-end-column="50" />
               <folding>
                 <element signature="e#39#73#0#PHP" expanded="true" />
-                <marker date="1520520556893" expanded="true" signature="12028:12086" placeholder="select openi..." />
-                <marker date="1520520556893" expanded="true" signature="12126:12184" placeholder="select openi..." />
-                <marker date="1520520556893" expanded="true" signature="13442:13535" placeholder="select id,co..." />
-                <marker date="1520520556893" expanded="true" signature="13611:13685" placeholder="select closi..." />
-                <marker date="1520520556893" expanded="true" signature="16747:16825" placeholder="select ${$fi..." />
-                <marker date="1520520556893" expanded="true" signature="16868:16974" placeholder="select ${$fi..." />
-                <marker date="1520520556893" expanded="true" signature="19664:19731" placeholder="select * fro..." />
-                <marker date="1520520556893" expanded="true" signature="19774:19869" placeholder="select * fro..." />
-                <marker date="1520520556893" expanded="true" signature="29427:29449" placeholder="select count..." />
-                <marker date="1520520556893" expanded="true" signature="29474:29488" placeholder="select * fro..." />
-                <marker date="1520520556893" expanded="true" signature="30117:30148" placeholder="select * fro..." />
-                <marker date="1520520556893" expanded="true" signature="30117:30158" placeholder="select * fro..." />
+                <marker date="1520554614837" expanded="true" signature="12028:12087" placeholder="select openi..." />
+                <marker date="1520554614837" expanded="true" signature="12127:12185" placeholder="select openi..." />
+                <marker date="1520554614837" expanded="true" signature="13443:13536" placeholder="select id,co..." />
+                <marker date="1520554614837" expanded="true" signature="13612:13686" placeholder="select closi..." />
+                <marker date="1520554614837" expanded="true" signature="16748:16826" placeholder="select ${$fi..." />
+                <marker date="1520554614837" expanded="true" signature="16869:16975" placeholder="select ${$fi..." />
+                <marker date="1520554614837" expanded="true" signature="19665:19732" placeholder="select * fro..." />
+                <marker date="1520554614837" expanded="true" signature="19775:19870" placeholder="select * fro..." />
+                <marker date="1520554614837" expanded="true" signature="29428:29450" placeholder="select count..." />
+                <marker date="1520554614837" expanded="true" signature="29475:29489" placeholder="select * fro..." />
+                <marker date="1520554614837" expanded="true" signature="30118:30149" placeholder="select * fro..." />
+                <marker date="1520554614837" expanded="true" signature="30118:30159" placeholder="select * fro..." />
               </folding>
             </state>
           </provider>
@@ -52,18 +52,28 @@
       <file leaf-file-name="all_data.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/all_data.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+            <state vertical-scroll-proportion="-1.7073171">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GpController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getTwoRatio.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getTwoRatio.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.682926">
+              <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GpController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GpController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.23261118">
+              <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
               <folding>
                 <element signature="e#39#65#0#PHP" expanded="true" />
               </folding>
@@ -74,7 +84,7 @@
       <file leaf-file-name="allStock.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/allStock.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
@@ -84,8 +94,8 @@
       <file leaf-file-name="getThreeRatio.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getThreeRatio.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+            <state vertical-scroll-proportion="-19.682926">
+              <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -158,7 +168,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/gupiao/table.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/gupiao/all_data.html.twig" />
         <option value="$PROJECT_DIR$/app/cache/dev/classes.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/gp/getTwoRatio.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/gp/js/demo/demo.table.js" />
         <option value="$PROJECT_DIR$/web/gp/js/gp.js" />
@@ -172,12 +181,13 @@
         <option value="$PROJECT_DIR$/app/Resources/views/gp/gp.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Mdjt.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/gp/layout.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/gp/getThreeRatio.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/MdjtRepository.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/gp/all_data.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GpController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/gp/allStock.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Implement/GpImplement.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/gp/getTwoRatio.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/gp/getThreeRatio.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GpController.php" />
       </list>
     </option>
   </component>
@@ -666,7 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1168" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17700535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -678,6 +688,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.04233871" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -687,7 +698,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18951613" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -966,6 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.390244">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#95#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -987,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.95122">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,13 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.219512">
           <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getTwoRatio.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="65.731705">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1022,14 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="269" column="75" selection-start-line="269" selection-start-column="71" selection-end-line="269" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getThreeRatio.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1063,10 +1062,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Implement/GpImplement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="642" column="50" selection-start-line="642" selection-start-column="50" selection-end-line="642" selection-end-column="50" />
+          <folding>
+            <element signature="e#39#73#0#PHP" expanded="true" />
+            <marker date="1520554614837" expanded="true" signature="12028:12087" placeholder="select openi..." />
+            <marker date="1520554614837" expanded="true" signature="12127:12185" placeholder="select openi..." />
+            <marker date="1520554614837" expanded="true" signature="13443:13536" placeholder="select id,co..." />
+            <marker date="1520554614837" expanded="true" signature="13612:13686" placeholder="select closi..." />
+            <marker date="1520554614837" expanded="true" signature="16748:16826" placeholder="select ${$fi..." />
+            <marker date="1520554614837" expanded="true" signature="16869:16975" placeholder="select ${$fi..." />
+            <marker date="1520554614837" expanded="true" signature="19665:19732" placeholder="select * fro..." />
+            <marker date="1520554614837" expanded="true" signature="19775:19870" placeholder="select * fro..." />
+            <marker date="1520554614837" expanded="true" signature="29428:29450" placeholder="select count..." />
+            <marker date="1520554614837" expanded="true" signature="29475:29489" placeholder="select * fro..." />
+            <marker date="1520554614837" expanded="true" signature="30118:30149" placeholder="select * fro..." />
+            <marker date="1520554614837" expanded="true" signature="30118:30159" placeholder="select * fro..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/all_data.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        <state vertical-scroll-proportion="-1.7073171">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getTwoRatio.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.682926">
+          <caret line="200" column="14" selection-start-line="200" selection-start-column="14" selection-end-line="200" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/gp/getThreeRatio.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.682926">
+          <caret line="266" column="14" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1081,32 +1118,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GpController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.23261118">
+          <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
           <folding>
             <element signature="e#39#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Implement/GpImplement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="545" column="23" selection-start-line="545" selection-start-column="23" selection-end-line="545" selection-end-column="23" />
-          <folding>
-            <element signature="e#39#73#0#PHP" expanded="true" />
-            <marker date="1520520556893" expanded="true" signature="12028:12086" placeholder="select openi..." />
-            <marker date="1520520556893" expanded="true" signature="12126:12184" placeholder="select openi..." />
-            <marker date="1520520556893" expanded="true" signature="13442:13535" placeholder="select id,co..." />
-            <marker date="1520520556893" expanded="true" signature="13611:13685" placeholder="select closi..." />
-            <marker date="1520520556893" expanded="true" signature="16747:16825" placeholder="select ${$fi..." />
-            <marker date="1520520556893" expanded="true" signature="16868:16974" placeholder="select ${$fi..." />
-            <marker date="1520520556893" expanded="true" signature="19664:19731" placeholder="select * fro..." />
-            <marker date="1520520556893" expanded="true" signature="19774:19869" placeholder="select * fro..." />
-            <marker date="1520520556893" expanded="true" signature="29427:29449" placeholder="select count..." />
-            <marker date="1520520556893" expanded="true" signature="29474:29488" placeholder="select * fro..." />
-            <marker date="1520520556893" expanded="true" signature="30117:30148" placeholder="select * fro..." />
-            <marker date="1520520556893" expanded="true" signature="30117:30158" placeholder="select * fro..." />
           </folding>
         </state>
       </provider>

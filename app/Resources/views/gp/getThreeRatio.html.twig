@@ -52,41 +52,53 @@
                     <div class="mws-form-row bordered">
                         <label class="mws-form-label">股票名称</label>
                         <div class="mws-form-item">
-                            <select name="gupiao_name" class="large">
+                            <select name="gp_name" class="large">
                                 <option selected value="zbgf">志邦股份</option>
-                                <option value="hxxf">华夏幸福</option>
-                                <option value="gldq">格力电器</option>
-                                <option value="mdjt">美的集团</option>
+                                <option selected value="hxxf">华夏幸福</option>
+                                <option selected value="gldq">格力电器</option>
+                                <option selected value="mdjt">美的集团</option>
                             </select>
                         </div>
                     </div>
-                </div>
-                {#<div class="mws-form-row bordered">#}
-                            {#<label class="mws-form-label">缩减范围</label>#}
-                            {#<div class="mws-form-item clearfix">#}
-                                {#<ul class="mws-form-list inline">#}
-                                    {#<li><input type="radio" name="range" value="0"> <label>0</label></li>#}
-                                    {#<li><input type="radio" name="range" value="1"> <label>1</label></li>#}
-                                    {#<li><input type="radio" name="range" value="2"> <label>2</label></li>#}
-                                    {#<li><input type="radio" name="range" value="3"> <label>3</label></li>#}
-                                {#</ul>#}
-                            {#</div>#}
-                        {#</div>#}
-                        <div class="mws-form-row bordered">
-                            <label class="mws-form-label">低买还是高卖</label>
-                            <div class="mws-form-item clearfix">
-                                <ul class="mws-form-list inline">
-                                    <li><input type="radio" name="field" value="lower_ratio"> <label>低买</label></li>
-                                    <li><input type="radio" name="field" value="ceiling_ratio"> <label>高卖</label></li>
-                                </ul>
-                            </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">开盘涨幅缩减范围</label>
+                        <div class="mws-form-item clearfix">
+                            <ul class="mws-form-list inline">
+                                <li><input type="radio" name="range" value="0" {% if openingRatio_range==0 %}checked{% endif %}> <label>0</label></li>
+                                <li><input type="radio" name="range" value="1" {% if openingRatio_range==1 %}checked{% endif %}> <label>1</label></li>
+                                <li><input type="radio" name="range" value="2" {% if openingRatio_range==2 %}checked{% endif %}> <label>2</label></li>
+                                <li><input type="radio" name="range" value="3" {% if openingRatio_range==3 %}checked{% endif %}> <label>3</label></li>
+                            </ul>
                         </div>
+                    </div>
 
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">年份缩减范围</label>
+                        <div class="mws-form-item clearfix">
+                            <ul class="mws-form-list inline">
+                                <li><input type="radio" name="year_range" value="0" {% if year_range==0 %}checked{% endif %}> <label>0</label></li>
+                                <li><input type="radio" name="year_range" value="1" {% if year_range==1 %}checked{% endif %}> <label>1</label></li>
+                                <li><input type="radio" name="year_range" value="2" {% if year_range==2 %}checked{% endif %}> <label>2</label></li>
+                                <li><input type="radio" name="year_range" value="3" {% if year_range==3 %}checked{% endif %}> <label>3</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">低买还是高卖</label>
+                        <div class="mws-form-item clearfix">
+                            <ul class="mws-form-list inline">
+                                <li><input type="radio" name="field" value="lower_ratio"> <label>低买</label></li>
+                                <li><input type="radio" name="field" value="ceiling_ratio"> <label>高卖</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="mws-button-row">
                     <a href="javascript:void(0);" onclick="submit1(document.frm2)" class="btn btn-danger">提交</a>
                 </div>
             </form>
         </div>
+    </div>
     <hr>
     <br/>
     {#{{ data[1]['name']}}#}
@@ -248,4 +260,8 @@
                 </tbody>
             </table>
         </div>
+{% endblock %}
+        {% block javascripts_special %}
+    {{ parent() }}
+    <script src="{{ asset('gp/js/all_data.js')  }}"></script>
 {% endblock %}

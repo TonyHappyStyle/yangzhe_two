@@ -171,11 +171,11 @@ class GpController extends  ControllerImplement
 //        exit;
 if(array_key_exists('three_day',$data['jinrishangzhang'])){
     return $this->render('gp/getThreeRatio.html.twig',array(
-        'datas'=>$data,'name'=>$name
+        'datas'=>$data,'name'=>$name,'openingRatio_range'=>$openingRatio_range,'year_range'=>$year_range
     ));
 }else{
     return $this->render('gp/getTwoRatio.html.twig',array(
-        'datas'=>$data,'name'=>$name
+        'datas'=>$data,'name'=>$name,'openingRatio_range'=>$openingRatio_range,'year_range'=>$year_range
     ));
 }
 
