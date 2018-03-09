@@ -9,7 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class LuckyController extends Controller
 {
     /**
-     * @Route("/lucky/number/{count}",name="lucky_number")
+     * @Route("/lucky/number/{count}")
      */
     public function numberAction($count)
     {
